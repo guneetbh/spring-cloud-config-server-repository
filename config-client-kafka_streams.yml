@@ -7,10 +7,10 @@ server:
     context-path: /kafka-streams-service
 
 spring:
-  cloud:
-    loadbalancer:
-      ribbon:
-        enabled: false
+#  cloud:
+#    loadbalancer:
+#      ribbon:
+#        enabled: false
   security:
     oauth2:
       resourceserver:
